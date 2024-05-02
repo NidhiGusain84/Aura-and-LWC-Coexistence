@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <c:ChildLightningWebComponent name="LWC Jouney" aura:id="childLWC"></c:ChildLightningWebComponent>
+    <p class="slds-var-p-around_small">
+        <lightning:button variant="brand" label="Show Message" onclick="{!c.handleClick}"></lightning:button>
+    </p>
+</aura:component>

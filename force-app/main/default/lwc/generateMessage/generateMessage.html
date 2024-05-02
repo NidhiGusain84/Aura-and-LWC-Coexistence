@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <div class="slds-var-p-around_small">
+            <lightning-input label="Enter First Name" name="fName" onchange={changeHandler}></lightning-input>
+            <lightning-input label="Enter Last Name" name="lName" onchange={changeHandler}></lightning-input>
+        </div>
+        <div class="slds-var-p-around_small">
+            <lightning-button label="Generate Full Name" brand="button" onclick={clickHandler}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

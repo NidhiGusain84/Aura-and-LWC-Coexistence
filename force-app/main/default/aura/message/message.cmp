@@ -1,0 +1,3 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <c:generateMessage onshowmessage="{!c.handleMessage}"></c:generateMessage>
+</aura:component>
